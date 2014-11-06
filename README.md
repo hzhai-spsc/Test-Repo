@@ -1,8 +1,8 @@
 Test-Repo
 =========
 
-<<<<<<< HEAD
 This is a test repository. Feel free to edit this file.
+<<<<<<< HEAD
 
 Edit by Ao.
 =======
@@ -20,3 +20,5 @@ Edited by Kevin
 
 ==========================================
 Milton says: Hello world it is a beatiful day!
+=======
+>>>>>>> pr/2
