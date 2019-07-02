@@ -1,0 +1,37 @@
+schema_version: v1.1
+
+service:
+  id: 7418B8E7-27DD-4C8F-B966-EB8E8396C8C9
+  name: startrack-elink
+  type: UI
+  state: developing
+  access: internal
+  reuse: not_reusable
+  data_class: unclassified
+  xrefs: []
+  configurations: []
+  maintainers:
+  - apacdevelopment@spscommerce.com
+
+global:
+  owner: apacdevelopment@spscommerce.com
+  unit: apac
+  product: intouch
+  subproduct: startrackelink
+  environments:
+  - name: dev
+    region: ap-southeast-2
+    account: 056684691971
+  - name: test
+    region: ap-southeast-2
+    account: 056684691971
+  - name: preprod
+    region: ap-southeast-2
+    account: 104966627370 
+  - name: prod
+    region: ap-southeast-2
+    account: 104966627370 
+
+deploy:
+  - name: leadtec-startrack-webportal
+    deploy_type: static_assets
